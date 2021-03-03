@@ -1,0 +1,3 @@
+[submodule "ov5frontend"]
+	path = ov5frontend
+	url = https://github.com/robvold/ov5_frontend.git

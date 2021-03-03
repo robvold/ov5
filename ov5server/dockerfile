@@ -1,0 +1,9 @@
+FROM ubuntu:latest
+FROM gcc:latest
+RUN apt-get update && apt-get install dos2unix
+ENV DEV /home/dev
+COPY entrypoint.sh $DEV/
+WORKDIR $DEV
+RUN dos2unix entrypoint.sh
+RUN chmod 777 entrypoint.sh
+ENTRYPOINT ["./entrypoint.sh"]
