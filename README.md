@@ -1,7 +1,7 @@
 # Ov5
 
 This is a cpp code runner  
-Works only on windows
+Works only on windows  
 
 ## Prerequisites:
 node.js and npm  
@@ -16,6 +16,7 @@ Server - in a terminal:
 ```bash
 cd ov5/ov5server
 docker build -t ov .
+javac Server.java
 java Server
 ```
 Client - in a new terminal:
