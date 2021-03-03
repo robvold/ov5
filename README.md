@@ -12,13 +12,13 @@ git clone --recursive https://github.com/robvold/ov5.git
 
 Server - in a terminal:
 ```bash
-cd ov5LarsSergioRobin/ov5server
+cd ov5/ov5server
 docker build -t ov .
 java Server
 ```
 Client - in a new terminal:
 ```bash
-cd ov5LarsSergioRobin/ov5frontend
+cd ov5/ov5frontend
 npm install
 npm start
 ```
