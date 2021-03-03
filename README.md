@@ -6,6 +6,10 @@ node.js and npm
 docker  
 java
 ## Installation:
+```bash
+git clone --recursive https://github.com/robvold/ov5.git
+```
+
 Server - in a terminal:
 ```bash
 cd ov5LarsSergioRobin/ov5server
